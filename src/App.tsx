@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import TheLayout from "./views/pages/TheLayout";
 
 const App = () => {
-  const [state, setState] = useState();
   return (
     <div>
       <TheLayout />
